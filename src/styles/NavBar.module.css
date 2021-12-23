@@ -1,0 +1,123 @@
+.ContainerNavbar1 {
+  position: absolute;
+  width: 100%;
+  height: 64px;
+  left: 0px;
+  top: 0px;
+
+  background: #131921;
+}
+
+/* LOGO */
+
+.containerLogo {
+  justify-content: left;
+  display: flex;
+}
+
+.Logo {
+  position: absolute;
+  width: 126px;
+  height: 40px;
+  left: 24px;
+  top: 12px;
+  background-color: white;
+}
+
+/* UBICACION */
+
+.ubicacion {
+  position: absolute;
+  margin-left: 180px;
+  color: white;
+}
+
+.hola {
+  position: static;
+  display: flex;
+  margin-top: 10px;
+  font-size: 11px;
+  margin-left: 19px;
+}
+
+.eligeUbicacion {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  width: auto;
+}
+
+/* BARRA BUSQUEDA Y SELECTOR */
+
+.buscador {
+  display: flex;
+  flex-direction: row;
+  margin-left: 340px;
+  margin-top: 18px;
+}
+
+.Select {
+  padding: 0.5rem;
+  color: #565959;
+  background: #f3f3f3e5;
+  width: 150px;
+  border-radius: 8px 0px 0px 8px;
+}
+
+.divInput {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  margin-left: -1px;
+}
+
+.inputBuscar {
+  display: flex;
+  margin: 0 auto;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.iconoBusqueda {
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  background-color: #f0ad64;
+  border: none;
+  color: white;
+  width: 14%;
+  height: 2.4rem;
+  border-radius: 0px 8px 8px 0px;
+  cursor: pointer;
+  margin-left: -2px;
+}
+
+/* SECCION DE CUENTA PEDIDOS Y CARRITO */
+
+.labelCuenta {
+  color: white;
+  position: static;
+  display: flex;
+  font-size: 12px;
+  margin-left: 19px;
+}
+
+.Cuenta {
+  color: white;
+  background: none;
+  margin-left: 18px;
+  width: 100px;
+}
+
+
+/* .pedidosYproductos{
+    margin-left: 10px;
+    width: 100;
+    height: 10px;
+}
+
+.pedidos{
+    color: white;
+    font-size: 14px;
+    margin-left: 20px;
+} */
